@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>homework_6</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+  <header>
+    <div class="container">
+      <div class="header__container">
+        <div class="weather">
+          <span class="temperature"></span>
+          <div class="icon"></div>
+        </div>
+  
+        <div id="navMonth">
+          <div class = "nav">&#8592;</div>
+          <div  id="monthName"></div>
+          <div class = "nav">&#8594;</div>
+        </div>
+      </div>
+    </div>
+  </header>
+ 
+
+<section>
+  <div class="container__wrapper">
+    <table id="calendar">
+      <thead class = calendar__days>
+        <tr>
+          <td>Пн</td>
+          <td>Вт</td>
+          <td>Ср</td>
+          <td>Чт</td>
+          <td>Пт</td>
+          <td>Сб</td>
+          <td>Вс</td>
+        </tr>
+      </thead>
+
+      <tbody id = "numbersMonth"></tbody>
+    </table>
+
+    <div class="wrapper__list">
+        <div id="listHeader"></div>
+
+        <div class="list__input">
+          <input type="text" id="input"  placeholder="Задача">
+          <button id="add">Добавить</button>
+        </div>
+      
+        <div id="taskSheet">
+          <ol id="ol"></ol>
+        </div>
+
+        <div class="clear_task">
+            <button id="btnClear">Очистить список</button>
+        </div>
+    </div>
+  </div>
+  
+</section>
+
+  <script src="todoList.js"></script>
+</body>
+</html>

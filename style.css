@@ -1,0 +1,181 @@
+body {
+  background: rgb(218 218 218);
+}
+
+
+.header__container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.container__wrapper {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.weather {
+  display: flex;
+  margin-right: 30px;
+}
+
+#navMonth {
+  display: flex;
+  justify-content: space-between;
+  width: 210px;
+  font-size: 25px;
+  font-family: Andale Mono, monospace;
+}
+
+.nav {
+  cursor: pointer;
+}
+
+.temperature {
+  color: rgb(34, 32, 32);
+  font-family: Andale Mono, monospace;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 41px;
+}
+
+.icon img {
+  width: 30px;
+}
+
+#calendar {
+  width: 100%;
+  font: monospace;
+  font-size: 30px;
+  font-family: Andale Mono, monospace;
+  text-align: center;
+  
+}
+
+.calendar__days td {
+  width: 50px;
+  height: 20px;
+  border: 1px solid rgb(0 164 164);
+  background: rgb(123 230 234);
+  box-shadow: 7px 10px 5px #b8b8b8;
+}
+
+#numbersMonth td {
+  position: relative;
+  cursor: pointer;
+  font-family: Andale Mono, monospace;
+  width: 50px;
+  height: 80px;
+  border: 1px solid rgb(41, 161, 151);
+  background: rgb(198, 218, 218);
+  box-shadow: 7px 10px 5px #b8b8b8;
+}
+
+#numbersMonth td:hover {
+  background: rgb(186, 216, 216);
+  box-shadow: 3px 5px 2px #b8b8b8;
+  transform: scale(0.95);
+}
+
+.wrapper__list {
+  position: relative;
+  margin-left: 15px;
+  border-radius: 6px;
+  padding: 6px;
+  width: 500px;
+  height: 1 1;
+  border: 2px solid rgb(3, 157, 204);
+  background: #e1e9e9;
+  box-shadow: 7px 10px 5px #b8b8b8;
+}
+
+#listHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Andale Mono, monospace;
+  height: 30px;
+  font-size: 23px;
+  border-bottom: 1px solid rgb(3, 157, 204);
+}
+
+.list__input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-around;
+  font-family: Andale Mono, monospace;
+  height: 40px;
+  border-bottom: 1px solid rgb(3, 157, 204);
+}
+
+#taskSheet-ul {
+  font-family: Andale Mono, monospace;
+  font-size: 15px;
+  margin-left: 15px;
+  padding: 0;
+}
+
+.today {
+  font-size: 50px;
+  background: rgb(137 234 234) !important;
+}
+
+.weekend {
+  color: red;
+}
+
+#add,
+#btnClear {
+  cursor: pointer;
+  font-family: Andale Mono, monospace;
+}
+
+.clear_task {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  border-top: 1px solid rgb(3, 157, 204);
+  bottom: 9px;
+  margin-top: 5px;
+  padding-top: 10px;
+}
+
+
+
+
+li {
+  width: 90%;
+  word-break: break-all;
+  font-family: Andale Mono, monospace;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #c2ccd7;
+}
+
+.check {
+  position: absolute;
+  right: 0;
+}
+
+.change_task{
+  color: rgb(180, 180, 180);
+}
+
+
+
+.not{
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: red;
+
+}
